@@ -24,7 +24,7 @@ Let's press it right away!!
 We were able to reach these pages.
 
 This page has the ability to upload files.
-But (only txt format and must be uploaded compressing the txt file in zip format.)
+But (only txt format and must be uploaded compressing the txt file in zip format)
 
 Let's use the functions on this page.
 
