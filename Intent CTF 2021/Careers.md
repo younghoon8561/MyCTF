@@ -39,3 +39,25 @@ Let's use the functions on this page.
 WoW nice work!!
 
 Let's use this function to get a flag!!!
+
+I thought this function would definitely have a problem distinguishing string. Let's try it!
+
+![10](https://user-images.githubusercontent.com/94436222/141944496-8775a492-c8fa-42e0-9b5e-c371cc47334b.PNG)
+
+It's my code
+
+
+
+![6](https://user-images.githubusercontent.com/94436222/141945096-4b63db0d-56c6-4e6f-a53f-a2267650e6cd.PNG)
+
+![7](https://user-images.githubusercontent.com/94436222/141945183-ccd15903-db66-4f7e-bf91-b9da2c85fcf9.PNG)
+
+![8](https://user-images.githubusercontent.com/94436222/141945208-5c7d1366-76aa-439c-ba76-e198fdf9354b.PNG)
+
+![9](https://user-images.githubusercontent.com/94436222/141945222-365b5054-dc21-4bc4-960d-b5b8d5dfc0a2.PNG)
+
+![11](https://user-images.githubusercontent.com/94436222/141945231-9b9400db-5a05-4b62-a3c2-0c98ee3e4a36.PNG)
+
+Nice! Flag is INTENT{zipfiles_are_awsome_for_pt}!!
+
+
