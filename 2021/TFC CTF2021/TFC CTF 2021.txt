@@ -1,5 +1,0 @@
-TFC CTF 2021
-
-https://tools.epieos.com/email.php 이메일만으로 신상 터는 사이트
-https://holloway.nz/steg/ 트위터 스테가노 그라피
-https://bahamas10.github.io/binary-to-qrcode/ 2진수 QR코드화
