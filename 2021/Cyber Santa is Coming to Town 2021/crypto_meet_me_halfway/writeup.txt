@@ -1,0 +1,16 @@
+https://pberba.github.io/crypto/2021/11/08/synack-redteam-invitational-ctf/
+
+
+Super strong encryption service approved by the elves X-MAS spirit.
+Message for all the elves:
+79acbcf560150a8a4b640864fbdd5654ad00b6f5f26613f068fe246f4c0e8dfbba81f1df2a2f343cd23274ec2e4210a5dc663950214a49885e845ace069776cfbb4ff33d0644962815f3183aaa18ae8ba3f3c91e89398bded514f26f29342c03
+Encrypt your text:
+> {"pt" : "68 69 49 40 21 6D 31 33 35 33 32 66 65 77 69 21 5F 40"}
+9919bbcc7af2260b6f215d617c9e9dfafd08fe0f94bf7809b424540734ddeffe
+
+
+
+b'cyb3rXm45!@#cebd'                                                                                                                                                     d3\xd7Bv\x1bT\x1cu\x9aimo\xd6X\x9b(\x0cZ\x1c\xbf\xbamloZV
+b'd455cyb3rXm45!@#'
+b"\xc5\xad^lx\xd3\xe5'*\x10Q\xb9\xb2_\x8c_S\xe4vM\xd4\x07)\xfdp\xb0{}\xf8\xd7)\xf9>\xeb\x17oo\x95\x01\x7fQ\xef\xae\xd5\xe0\xdc.+\x9e\xb1\x01!\xf1\x9b\xa0a'r\t\xee\xee\xd3\xd7Bv\x1bT\x1cu\x9aimo\xd6X\x9b(\x0cZ\x1c\xbf\xbamloZVt\xc9\x04qS\xde\xa6&<"
+b'https://www.youtube.com/watch?v=DZMv9XO4Nlk\nHTB{m337_m3_1n_7h3_m1ddl3_0f_3ncryp710n}\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c'

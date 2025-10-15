@@ -1,0 +1,17 @@
+def _BYTE(num):
+   return num & 0x7F
+
+state = 0
+def do_encrypt(edi):
+   eax = edi
+   rbp_4 = _BYTE(eax) # mov   BYTE PTR [rbp-4], al
+   eax = _BYTE(state)
+   eax = _BYTE(eax + 19)
+   rbp_4 = _BYTE(rbp_4 ^ eax)
+   eax = state + 55
+   state = _BYTE(eax)
+
+   return rbp_4
+
+
+The password to get in will be HTB{pl41nt3xt_4sm?wh4t_n3xt_s0urc3_c0d3?}

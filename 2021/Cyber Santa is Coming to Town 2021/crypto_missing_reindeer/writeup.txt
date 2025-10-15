@@ -1,0 +1,27 @@
+python3 RsaCtfTool.py --publickey key.pub --uncipherfile flag.enc
+
+echo $PUBKEY | base64 -D | openssl asn1parse - inform DEF -i strparse 19
+
+Ci95oTkIL85VWrJLVhns1O2vyBeCd0weKp9o3dSY7hQl7CyiIB/D3HaXQ619k0+4FxkVEksPL6j3wLp8HMJAPxeA321RZexR9qwswQv2S6xQ3QFJi6sgvxkN0YnXtLKRYHQ3te1Nzo53gDnbvuR6zWV8fdlOcBoHtKXlVlsqODku2GvkTQ/06x8zOAWgQCKj78V2mkPiSSXf2/qfDp+FEalbOJlILsZMe3NdgjvohpJHN3O5hLfBPdod2v6iSeNxl7eVcpNtwjkhjzUx35SScJDzKuvAv+6DupMrVSLUfcWyvYUyd/l4v01w+8wvPH9l
+
+base64 디코딩
+
+Results for key.pub:
+
+Unciphered data :
+HEX : 0x57652061726520696e20416e74617263746963612c206e6561722074686520696e646570656e64656e6365206d6f756e7461696e732e0a4854427b7733346b5f337870306e336e375f6666633839367d
+INT (big endian) : 1557557083543814172336607163260092833421057646019104960727073356364066073441281899179702244042726263049650591998409092023301232930288444853604698625348475061214874927442198998278165154227631741
+INT (little endian) : 2231529103680138796927746649536864897119247377471041905664407930796219624149588510249260498632762428775722479577828189092363031098729290754634089883573211466746152721663233448696652931528680791
+utf-8 : We are in Antarctica, near the independence mountains.
+HTB{w34k_3xp0n3n7_ffc896}
+utf-16 : 敗愠敲椠⁮湁慴捲楴慣‬敮牡琠敨椠摮灥湥敤据⁥潭湵慴湩⹳䠊䉔睻㐳彫砳ば㍮㝮晟捦㤸紶
+STR : b'We are in Antarctica, near the independence mountains.\nHTB{w34k_3xp0n3n7_ffc896}'
+
+https://bentrobotlabs.wordpress.com/2018/08/26/weak-rsa-challenge/
+https://github.com/mmetalmaster/hackthebox/blob/master/crypto/weak-rsa/README.md
+
+Crypto Challenge: Weak RSA과 같은 문제
+
+Missing Reindeer
+
+HTB{w34k_3xp0n3n7_ffc896}

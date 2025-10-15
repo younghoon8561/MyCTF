@@ -1,0 +1,6 @@
+admin' -- 
+HTB{1nj3cti0n_1s_in3v1t4bl3}
+
+HTB{c0mm0n_m0d_4774ck_15_4n07h3r_cl4ss1c}
+
+common modulus attack

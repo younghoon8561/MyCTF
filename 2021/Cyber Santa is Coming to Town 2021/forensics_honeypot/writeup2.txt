@@ -1,0 +1,6 @@
+HTB{d41d8cd98f00b204e9800998ecf8427e}
+
+echo -n "http://url.com/Santa@https://windowsliveupdater.com/christmas_update.hta_2700_172.67.177.22" | md5sum
+
+volatility_2.6_win64_standalone.exe -f "honeypot.raw" --profile=Win7SP1x86 iehistory
+d41d8cd98f00b204e9800998ecf8427e

